@@ -1,0 +1,94 @@
+body{
+    background-color:gray;
+}
+
+header{
+    background-color: black;
+}
+
+footer{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+}
+
+p{
+    color: black;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+table, th, td {
+    border:1px solid black;
+    text-align: center;
+}
+
+
+.nav {
+    background-color: black;
+    overflow: hidden;
+}
+
+.nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.nav a.active {
+    background-color: blue;
+    color: white;
+}
+
+.currency {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.currency select {
+    padding: 10px 20px 10px 10px;
+    border: 1px solid black;
+    font-size: 16px;
+}
+  
+.currency input {
+    background: white;
+    font-size: 30px;
+    text-align: right;
+}
+
+.rate{
+    padding: 10px;
+    color: blue;
+}
+
+.btn{
+    display: flex;
+    background-color: white;
+    color: blue;
+}
+
+footer{
+    background-color: black;
+}
+
+text{
+    color: white;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Currency Converter</title> 
+    </head>
+
+    <header>
+        <h1>Strongest 5 Currencies</h1>
+        
+        <div class="nav">
+          <a href="home.html">Home</a>
+          <a href="info.html">Info</a>
+          <a href="ranked.html">Ranked</a>
+          <a class="active" href="converter.html">Converter</a>
+        </div>
+    </header>
+
+
+    <div class="converter">
+        <div class="currency">
+          <select id="currency-one">
+            <option value="EUR">EUR</option>
+            <option value="JPY">JPY</option>
+            <option value="GBP">GBP</option>
+            <option value="CHF">CHF</option>
+            <option value="USD" selected>USD</option>
+          </select>
+          <input type="number" id="amount-one" placeholder="0" value="1" />
+        </div>
+  
+        <div class="swap-rate-container">
+          <button class="btn" id="swap">
+            Swap
+          </button>
+          <div class="rate" id="rate"></div>
+        </div>
+  
+        <div class="currency">
+          <select id="currency-two">
+            <option value="EUR" selected>EUR</option>
+            <option value="JPY">JPY</option>
+            <option value="GBP">GBP</option>
+            <option value="CHF">CHF</option>
+            <option value="USD">USD</option>
+          </select>
+          <input type="number" id="amount-two" placeholder="0" />
+        </div>
+    </div>
+    <script src="converter.js"></script>
+
+    <footer>
+      <P><text>
+        Buttons Below Used for data Colection
+      </text></P>
+      <button onclick="window.location.href='https://treasury.un.org/operationalrates/OperationalRates.php';">
+        UN Currency Chart
+      </button>
+  
+      <button onclick="window.location.href='https://www.barchart.com/forex';">
+        Currency Stregth Chart
+      </button>
+    </footer>
+
+</html>

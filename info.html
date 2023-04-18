@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<!--Code-->
+<html> 
+
+  <!--Tab Header-->
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Currencies Info</title> 
+  </head>
+
+  <header>
+    <h1>Strongest 5 Currencies</h1>
+    
+    <div class="nav">
+      <a href="home.html">Home</a>
+      <a class="active" href="info.html">Info</a>
+      <a href="ranked.html">Ranked</a>
+      <a href="converter.html">Converter</a>
+    </div>
+  </header>
+
+  <body>
+    <p> 
+      This page will show some basic information on each of the top currencies. Bellow you will find the information on 
+    </p>
+    
+    <ul>
+      <li>Where the currency is used.</li>
+      <li>Its name.</li>
+      <li>Symbol currency codes.</li>
+      <li>What its worth compared to one USD.</li>
+      <li>What year it was addopted by said country.</li>
+    </ul>
+
+    <table style="width:100%">
+      <tr>
+        <th>Country</th>
+        <th>Currency Name</th>
+        <th>Currency Symbol</th>
+        <th>Currency Code</th>
+        <th>Exchange for 1 USD *</th>
+        <th>Year Adopted</th>        
+      </tr>
+      <tr>
+        <td>United States of America</td>
+        <td>Dollar</td>
+        <td>$</td>
+        <td>USD</td>
+        <td>1</td>
+        <td>1792</td>
+      </tr>
+      <tr>
+        <td>European Union</td>
+        <td>Euro</td>
+        <td>€</td>
+        <td>EUR</td>
+        <td>1</td>
+        <td>1999</td>
+      </tr>
+      <tr>
+        <td>Japan</td>
+        <td>Yen</td>
+        <td>¥</td>
+        <td>JPY</td>
+        <td>144.05</td>
+        <td>1871</td>
+      </tr>
+      <tr>
+        <td>United Kingdom</td>
+        <td>Pound Sterling</td>
+        <td>£</td>
+        <td>GBP</td>
+        <td>0.87</td>
+        <td>1971</td>
+      </tr>
+      <tr>
+        <td>Switzerland</td>
+        <td>Franc</td>
+        <td>CHf</td>
+        <td>CHF</td>
+        <td>0.98</td>
+        <td>1850</td>
+      </tr>
+    </table>
+    <p>
+      * All prices are as of september 12th 2022
+    </p>
+  </body>
+
+  <footer>
+    <P><text>
+      Buttons Below Used for data Colection
+    </text></P>
+    <button onclick="window.location.href='https://treasury.un.org/operationalrates/OperationalRates.php';">
+      UN Currency Chart
+    </button>
+
+    <button onclick="window.location.href='https://www.barchart.com/forex';">
+      Currency Stregth Chart
+    </button>
+  </footer>
+
+</html>
